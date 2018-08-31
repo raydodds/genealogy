@@ -1,31 +1,58 @@
 Last Name	First Name	Nickname	Mentee(Formatted)	Name of Mentor(s)	Adopted Mentor(s)	Positions	
+Barnes	Howard	Howie	Howard Barnes	Nick Levie			
+Belden	Jessica	Jessie	Jessica Belden	Hunter Leonard			
+Cacace	Marissa		Marissa Cacace	Leiah Maloney			
+DeTrani	Zoe		Zoe DeTrani	Christopher Daukshus			
+Dharmadi	Jonathan		Jonathan Dharmadi	Dominick Reba			
+Dolansky	Jeremy		Jeremy Dolansky	Trent Truitt			
+Doolittle	Gillian		Gillian Doolittle	Seth Gower			
+Erickson	Tucker		Tucker Erickson	Jordan Morin			
+Eskridge	Margaret	Poppy	Margaret Eskridge	Kasey Lipscomb			
+Fabian	Elayna		Elayna Fabian	Kel Hakim			
+Fisher	Dustin		Dustin Fisher	Saty Emani			
+Flowers	Zachary		Zachary Flowers	Andrea De Paula			
+Gambardella	Celeste		Celeste Gambardella	Jessica Brock-Schlageter			
+Harig	Daniel	Danny	Daniel Harig	Braden Feasley			
+Harrington	Nathan		Nathan Harrington	Hunter Leonard			
+Hill	Jack		Jack Hill	Nick Levie			
+Hutson	Nicholas	Niccc	Nicholas Hutson	Andy Keats			
+Ivory	Alexander	Alex	Alexander Ivory	Braden Feasley			
+Mahone	Tyler		Tyler Mahone	Saty Emani			
+Mathews	Maryanne	Mary	Maryanne Mathews	Kristy Stine			
+Melchiorre	Dominic		Dominic Melchiorre	Lauren Wofford			
+Morrison	John	BJ	John Morrison	Shane Burke			
+Necky	Rachel		Rachel Necky	Kasey Lipscomb			
+Orr	Elaine		Elaine Orr	Leiah Maloney			
+Panuccio	Jessica	Jess	Jessica Panuccio	Kel Hakim			
+Press	Makenzie		Makenzie Press	Faith Nee			
+Sivo	Dante		Dante Sivo	Elliot Sheaff			
 Brooks	Abby		Abby Brooks	Maggie Ligus			
 Brock-Schlageter	Jessica		Jessica Brock-Schlageter	Amanda Lydick			
 Burke	Shane		Shane Burke	David Wilson			
 Byrnes	Kaylie		Kaylie Byrnes	Emily Zebrowski			
-Daukshus	Christopher	DK	Christopher Daukshus	Liam Callahan			
+Daukshus	Christopher	DK	Christopher Daukshus	Liam Callahan	Benjamin Schlur		
 De Paula	Andrea		Andrea De Paula	Sabrina Ly			
 Emani	Saty		Saty Emani	Chris Salvati		Computer	
 Feasley	Braden		Braden Feasley	Mia Sitzler		Treasurer	
-Gower	Seth		Seth Gower		Ben Schlur	Off-Floor	
+Gower	Seth		Seth Gower		Benjamin Schlur, Hannah Van Fleet, Ryan Volz	Off-Floor	
 Hakim	Kel		Kel Hakim	Taylor Smith		Vice President	
 Hola	Anusha		Anusha Hola	Hannah Van Fleet		Recruitment	
-Keats	Andy		Andy Keats		Ben Schlur, Kaleigh Marcotte, Adam Bork	Off-Floor	
+Keats	Andy		Andy Keats		Benjamin Schlur, Kaleigh Marcotte, Adam Bork, Ryan Volz	Off-Floor, Recruitment	
 Leonard	Hunter		Hunter Leonard	Chris Witmer		Freshman Rep, House Improvements	
-Levie	Nick		Nick Levie	Sam Shelmidine		Constitution and Historian	
+Levie	Nick	Nicc	Nick Levie	Samuel Shelmidine		Constitution and Historian	
 Lipscomb	Kasey		Kasey Lipscomb	Jeffrey Seamon		Public Relations	
 Maloney	Leiah		Leiah Maloney	Carl Burkhard		President	
 Morin	Jordan		Jordan Morin	Zach Roberts			
-Nee	Faith		Faith Nee	Kim Scheer			
+Nee	Faith		Faith Nee	Kimberly Scheer			
 Paradie	Audra		Audra Paradie	Michael Smith		Secretary	
-Reba	Dominick		Dominick Reba	Ben Schlur			
+Reba	Dominick		Dominick Reba	Benjamin Schlur			
 Shaw	Marissa		Marissa Shaw	Alexa Kline			
 Sheaff	Elliot		Elliot Sheaff	Dan Yochim			
-Sherman-Godfrey	Malcolm		Malcolm Sherman-Godfrey	Luke Murphy	Hannah Van Fleet		
-Stine	Kristy		Kristy Stine	Lukas Yelle			
-Truitt	Trent		Trent Truitt	Kaleigh Marcotte			
+Sherman-Godfrey	Malcolm		Malcolm Sherman-Godfrey	Luke Murphy	Hannah Van Fleet	Social	
+Stine	Kristy		Kristy Stine	Lukas Yelle		Social	
+Truitt	Trent		Trent Truitt	Kaleigh Marcotte		Project	
 Wofford	Lauren		Lauren Wofford	Michael Smith			
-Anderson	Matt		Matt Anderson	William Key			
+Anderson	Matt		Matt Anderson	Scott Williamson			Ask Brighton
 Burkhard	Carl		Carl Burkhard	Nick Henderson	Scott Williamson	President, Public Relations	
 Callahan	Liam		Liam Callahan	Jason Blocklove	Christian Kobb	Vice President	
 Edvalson	Tony		Tony Edvalson	William Key			
@@ -39,19 +66,19 @@ Marcotte	Kaleigh		Kaleigh Marcotte	Maria Melchiorre
 Murphy	Luke		Luke Murphy	Cole Miller		Secretary	
 Roberts	Zach		Zach Roberts	Alexandra Celin			
 Salvati	Chris	Roger	Chris Salvati	Christian Kobb		Project	
-Scheer	Kim		Kim Scheer	Alyssa Keller		Recruitment	
-Schlur	Ben		Ben Schlur	Cole Miller	Adam Bork		
+Scheer	Kimberly	Kim	Kimberly Scheer	Alyssa Keller		Recruitment	
+Schlur	Benjamin	Ben	Benjamin Schlur	Cole Miller	Adam Bork		
 Seamon	Jeffrey		Jeffrey Seamon	Christian Kobb			
-Shelmidine	Sam		Sam Shelmidine	Joseph Panaro		Constitution and Historian	
+Shelmidine	Samuel	Sam	Samuel Shelmidine	Joseph Panaro		Constitution and Historian	
 Sitzler	Mia		Mia Sitzler	Sarah Ehrhardt	Christian Kobb	Freshman Rep, Public Relations	
 Smith	Michael		Michael Smith	Alexandra Celin	William Key, Adam Bork	Treasurer	
 Smith	Taylor		Taylor Smith	Sarah Ehrhardt			
 Van Fleet	Hannah		Hannah Van Fleet	Sara Zuwiyya		Social	
 Volz	Ryan		Ryan Volz		Maria Melchiorre	Off-Floor	
-White	Mitchell		Mitchell White	Emerson Maloney			
+White	Mitchell		Mitchell White	Emerson Maloney	Rachel Wu		
 Wilson	David		David Wilson	Joseph Panaro			
 Witmer	Chris		Chris Witmer	Emerson Maloney		House Improvements	
-Yelle	Lukas		Lukas Yelle	Jason Blocklove		Computer	
+Yelle	Lukas		Lukas Yelle	Jason Blocklove	Christian Kobb	Computer	
 Yochim	Dan		Dan Yochim	Scott Williamson	Madison Langer		
 Zebrowski	Emily		Emily Zebrowski	Sara Zuwiyya			
 Belfast	Elizabeth	Liz	Elizabeth Belfast	Jobi Reibson, Rachel Becker			
@@ -73,7 +100,7 @@ Melchiorre	Maria		Maria Melchiorre	Christopher Salcedo		Secretary, ALC
 Miller	Cole		Cole Miller	Noah Lach			
 Nkinsi	Lucillia		Lucillia Nkinsi	Daniel Green			
 Panaro	Joseph	Broseph	Joseph Panaro	Andrew Bear, Brett Saxe		Constitution and Historian	
-Warlick	Carley		Carley Warlick	Gordon Upshaw			
+Warlick	Carley		Carley Warlick	Gordon Upshaw	Kimberly Bernetski		
 Williamson	Scott	Lemonjello	Scott Williamson	Christopher Sweet		Project	
 Wojciechowski	Julia		Julia Wojciechowski	Nadezhda Levitova			
 Wu	Rachel		Rachel Wu	Ryan Malley			
@@ -93,7 +120,7 @@ Kline	Morgan		Morgan Kline	Elizabeth Eichorn
 Lach	Noah		Noah Lach	Tatyana Emamali	Katie Brinskele	Public Relations	
 Lewis	Stephanie	Steph	Stephanie Lewis	Vikas Patel			
 Malley	Ryan		Ryan Malley	Drew Schena		Fundraising	
-McCumber	Matt	Cucumber	Matt McCumber	Bria Cherebin			
+McCumber	Matt	Cucumber	Matt McCumber	Bria Cherebin	Gabriel Kramer		
 Mehrotra	Anant		Anant Mehrotra	Vikas Patel			
 Mendonca	Brendan		Brendan Mendonca	Natasha Amadasun			
 Pischera	Jarrett		Jarrett Pischera	Victoria Cardenas		Treasurer	
@@ -104,7 +131,7 @@ Stock	Adam		Adam Stock	Drew Schena	Emily Imbruglio	Vice President
 Sweet	Christopher	Sweets, Dominos	Christopher Sweet	Scott Eisele			
 Tolentino	Keena		Keena Tolentino	Erica Butler			
 Upshaw	Gordon		Gordon Upshaw	Scott Eisele	Emily Imbruglio	Recruitment	
-Becker	Rachel		Rachel Becker			Off-Floor	
+Becker	Rachel	Batman	Rachel Becker			Off-Floor	
 Levitova	Nadezhda	Nadya	Nadezhda Levitova		Zachary Hankinson	Off-Floor	
 Lucas	Stephen	Steve	Stephen Lucas		Drew Schena	Off-Floor	
 Salcedo	Christopher	Salsa	Christopher Salcedo		Vikas Patel	Off-Floor, Constitution and Historian, ALC	
@@ -161,7 +188,7 @@ Zatwarnicki	Kristin		Kristin Zatwarnicki	Erika Zuniga
 Godard	Jessica		Jessica Godard	Tony Seale	Tim Kremers		TK may be regular mentor
 Miller	Linzey		Linzey Miller	Michelle Godlewski, Charlotte Edwards			
 Prilenski	Lucas		Lucas Prilenski	Nicole Anklam			
-Anklam	Nicole	Nikki	Nicole Anklam	Jordan O'Connor		Secretary	
+Anklam	Nicole	Nikki	Nicole Anklam	Jordan O'Conner		Secretary	
 Baez	Hector		Hector Baez	Christina Pysher		ALC	
 Beatrez	Bryan		Bryan Beatrez	Jeremy Czeczulin		Computer	
 Bradley	Autumn		Autumn Bradley	Jeremy Czeczulin		Recruitment	
@@ -199,15 +226,15 @@ Foggetti	Zack		Zack Foggetti	Jeremie Snyder		House Improvements
 Follman	Jesse		Jesse Follman	Ryan Rawlins		President	
 Garten	Kate		Kate Garten	Chad Krohn		Recruitment	
 Gasser	David		David Gasser	Kelly Stover		Vice President	
-Harasz	Joseph		Joseph Harasz				
+Harasz	Joseph	Joe	Joseph Harasz				
 Heuser	Andrew		Andrew Heuser	James Brinkerhoff			
 Marrese	Matthew		Matthew Marrese	Phil Medalie		Social	
 Mulpagano	Mark		Mark Mulpagano	Austin Allesio		Computer	
 Natter	Evan		Evan Natter	Kevin Tesch		Project	
-O'Connor	Jordan		Jordan O'Connor	Danielle Nutter		Treasurer	
+O'Conner	Jordan		Jordan O'Conner	Danielle Nutter		Treasurer	
 Pysher	Christina		Christina Pysher	Ryan Rawlins		ALC	
 Shuman	Patrick		Patrick Shuman	Chad Krohn			
-Urbanski	Greg		Greg Urbanski	Matthew Miasiazek		RA, ALC	
+Urbanski	Greg		Greg Urbanski	Matthew Misiaszek		RA, ALC	
 Amezquita	Louis		Louis Amezquita	Ryan Mickelson			
 Sementilli	Anna		Anna Sementilli	Megan Kerwin		Recruitment	
 Baldwin	Kate	Katie	Kate Baldwin	Gabbi Potts		Public Relations	
@@ -215,7 +242,7 @@ Conway	Caitlin		Caitlin Conway	Spencer Hanson		Public Relations
 Matthews	Candice		Candice Matthews	Sarah Clauser			
 Roberston	Olivia		Olivia Roberston	James Brinkerhoff		Social	
 Silberglied	Alexandra		Alexandra Silberglied	Paul Richard			
-Stoessel	Morgan		Morgan Stoessel	Matthew Miasiazek			
+Stoessel	Morgan		Morgan Stoessel	Matthew Misiaszek			
 Allesio	Austin		Austin Allesio	Brandon Kilbury		Social	
 Brinkerhoff	James		James Brinkerhoff			Recruitment	
 Brown	Brandon	B Brown	Brandon Brown	Brandon Kilbury		Computer	
@@ -224,21 +251,21 @@ Crilly	Pat		Pat Crilly	Danielle Nutter
 Hanson	Spencer		Spencer Hanson			Constitution and Historian	
 Kerwin	Megan		Megan Kerwin				
 Krohn	Chad		Chad Krohn	Tom Mordovancey			
-Laurino	Josh		Josh Laurino	Chris Williams			
+Laurino	Josh		Josh Laurino	Christopher Williams			
 Medalie	Phil		Phil Medalie	Nick Klimek		President	
 Mickelson	Ryan		Ryan Mickelson				
-Misiaszek	Matt		Matt Misiaszek			RA	
+Misiaszek	Matthew		Matthew Misiaszek			RA	
 Mizrachi	Seth		Seth Mizrachi	Gabbi Potts			
 Nutter	Danielle		Danielle Nutter			Secretary	
 Potts	Gabbi		Gabbi Potts				
 Rawlins	Ryan		Ryan Rawlins			Off-Floor, Off-Floor Rep	
 Richard	Paul		Paul Richard				
-Shah	Apurva		Apurva Shah	Chris Williams			
+Shah	Apurva		Apurva Shah	Christopher Williams			
 Slaggert	Tyler		Tyler Slaggert	Cody Woods			
 Snyder	Jeremie		Jeremie Snyder				
 Stover	Kelly		Kelly Stover	Stephanie Mauro		Treasurer	
 Tesch	Kevin		Kevin Tesch	Joseph Casey			
-Williams	Chris		Chris Williams			ALC	
+Williams	Christopher		Christopher Williams			ALC	
 Woods	Cody		Cody Woods			Off-Floor, Project	
 Brown	Chelsea		Chelsea Brown			Secretary	
 Buchsbaum	Josh		Josh Buchsbaum			House Improvements	
@@ -271,14 +298,14 @@ Paredes	Marion		Marion Paredes
 Satterlee	Sarah		Sarah Satterlee				
 Towle	Nick		Nick Towle				
 Trenk	Matt		Matt Trenk				
-Allessio	Christin		Christin Allessio			Secretary, ALC	
+Allesio	Christin		Christin Allesio			Secretary, ALC	
 Burns	John		John Burns			Constitution and Historian	
 Burns	Emily		Emily Burns				
 Ehrenzeller	John		John Ehrenzeller				
 Gajewski	Steve		Steve Gajewski				
-Gibson	Jonathan		Jonathan Gibson			Freshman Rep, Public Relations	
+Gibson	Jonathan		Jonathan Gibson			Freshman Rep, Public Representative	
 LaQuay	Brandon		Brandon LaQuay				
-McConnaghy	Kelsey		Kelsey McConnaghy			RA	
+McConnaghy	Kelsey	Kelpy	Kelsey McConnaghy			RA	
 McNally	Erin		Erin McNally			Social	
 Nicholas	Benjamin		Benjamin Nicholas			Computer	
 Painter	Danielle		Danielle Painter			Recruitment	
@@ -299,10 +326,10 @@ Smith	Geoffrey		Geoffrey Smith
 Soltis	Erika		Erika Soltis			Recruitment	
 Jervey	Helen		Helen Jervey				
 Francis	Ian		Ian Francis			Project	
-Leipold	Kate		Kate Leipold			Recruitment	
+Leipold	Kate	nee Nordland	Kate Leipold			Recruitment	
 Carr	Sara		Sara Carr			Treasurer	
 Carr	Chris		Chris Carr	Sara Carr			
-Ciambrione	Pat		Pat Ciambrione	Michael Ellis		Computer	
+Ciambrione	Pat		Pat Ciambrione			Computer	
 Clark	Andrew	Andy	Andrew Clark	Heather Godlewski			
 Cresswell	Geoff		Geoff Cresswell	Brian Smaszcz		ALC	
 Darmento	Sean		Sean Darmento	Tim Hoyt		Recruitment, Project	
@@ -326,7 +353,7 @@ Kretzmann	Justin		Justin Kretzmann	Heather Godlewski
 Litts	Erin		Erin Litts	Jess Frey		RA	
 Lowry	Peter	Pete	Peter Lowry			ALC	
 Ludwigsen	Justin		Justin Ludwigsen	Michael Ellis		Recruitment	
-Miasiazek	Matthew		Matthew Miasiazek	Tyler Peterson			
+Misiaszek	Matthew		Matthew Misiaszek	Tyler Peterson			
 Milanesi	Matthew		Matthew Milanesi	Matthew Kremers			
 Moore	Monica		Monica Moore	Stephanie Mauro			
 Morison	Elizabeth		Elizabeth Morison	Helen Jervey			
@@ -350,3 +377,285 @@ Hoyt	Tim		Tim Hoyt
 Pyra	Carolynn		Carolynn Pyra				
 Blackiston	Leslie		Leslie Blackiston				
 Janicki	Adam		Adam Janicki				
+Mitchel	Ranke		Ranke Mitchel				
+Mark	LaSala		LaSala Mark				
+Nickolos	Mackos		Mackos Nickolos				
+Jeff	Nielson		Nielson Jeff				
+Messner	William		William Messner				
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+			 				
+			 				
+			 				
+			 				
