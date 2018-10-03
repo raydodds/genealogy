@@ -15,3 +15,10 @@ and members of the executive board in blue. Non-position holding members
 are the default black. Adoptions, which have become more popular in recent
 years, are noted by dashed lines. Solid lines are the assigned
 relationships.
+
+Please note that due to the nature of college as a constantly cycling
+environment where only about five years of people co-exist at once,
+some of the older relations have been lost or are based on older,
+incomplete and hard to interpret files. The current record is maintained
+by hand as a google sheet and exported to .tsv when updates need to
+be made, so all information represented here may not be 100% accurate.
