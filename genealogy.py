@@ -52,6 +52,8 @@ def main():
 
 	graph = graphviz.Digraph("Relations", format='pdf')
 
+	graph.attr(label=r"\lEngineering House Lines\lDash=Adoption\lBlue=EBoard\lYellow=Cabinet")
+
 	for mem in roster:
 		if(roster[mem].isEBoard()):
 			graph.node(mem, mem, color='blue')
@@ -60,7 +62,10 @@ def main():
 		else:
 			graph.node(mem, mem)
 
+		if(len(roster[mem].mentees) == 0):# and len(roster[mem].adoptees) == 0):
+			graph.node(mem, mem, shape='egg')
 
+		
 		for mentee in roster[mem].mentees:
 			graph.edge(mem, mentee.name)
 
