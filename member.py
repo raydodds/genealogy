@@ -134,6 +134,11 @@ class Member:
 		if(_initialCall):
 			member.addAdoptor(self, False)
 
+	def isConnected(self):
+		if sum(map(lambda x: len(x), [self.mentees, self.mentors, self.adoptees, self.adoptors])) == 0:
+			return False
+		return True
+
 
 #
 #	Class Methods

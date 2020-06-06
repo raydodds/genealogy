@@ -2,17 +2,36 @@
 	Reads in the spreadsheet of house genealogy in order
 """
 
-import graphviz, member, sys
+import member
+
+import graphviz
+
+import argparse
+
+DEFAULT_FILE_NAME='relations'
 
 def main():
 	
+
+	parser = argparse.ArgumentParser()
+	parser.add_argument("member_list",
+						help="A tsv file pulled from the EHouse Genealogy")
+	parser.add_argument("-o","--out_file",
+						help="The output filename (will have .pdf appended)",
+						default=DEFAULT_FILE_NAME)
+	parser.add_argument("-q", "--quiet", action='store_true',
+						help="Does not print a list of unconnected members")
+
+	args = parser.parse_args()
+	"""
 	if(len(sys.argv) != 2):
 		usage()
 		exit()
-		
+	"""	
+
 	readFile = ""
 	try:
-		readFile = open(sys.argv[1], 'r+')
+		readFile = open(args.member_list, 'r+')
 	except FileNotFoundError as e:
 		print("File does not exist, try again asshole.")
 		exit()
@@ -54,31 +73,37 @@ def main():
 
 	graph.attr(label=r"\lEngineering House Lines\lDash=Adoption\lBlue=EBoard\lYellow=Cabinet")
 
+	if not args.quiet:
+		print("Unconnected members:")
+
 	for mem in roster:
-		if(roster[mem].isEBoard()):
-			graph.node(mem, mem, color='blue')
-		elif(roster[mem].isCabinet()):
-			graph.node(mem, mem, color='gold')
-		else:
-			graph.node(mem, mem)
+		if roster[mem].isConnected():
+			if(roster[mem].isEBoard()):
+				graph.node(mem, mem, color='blue')
+			elif(roster[mem].isCabinet()):
+				graph.node(mem, mem, color='gold')
+			else:
+				graph.node(mem, mem)
 
-		if(len(roster[mem].mentees) == 0):# and len(roster[mem].adoptees) == 0):
-			graph.node(mem, mem, shape='egg')
+			if(len(roster[mem].mentees) == 0):# and len(roster[mem].adoptees) == 0):
+				graph.node(mem, mem, shape='egg')
 
+			
+			for mentee in roster[mem].mentees:
+				graph.edge(mem, mentee.name)
+
+			for adoptee in roster[mem].adoptees:
+				graph.edge(mem, adoptee.name, style='dashed')
+		elif not args.quiet:
+			print(f'{roster[mem].name}')
+
+	graph.render(args.out_file)
 		
-		for mentee in roster[mem].mentees:
-			graph.edge(mem, mentee.name)
-
-		for adoptee in roster[mem].adoptees:
-			graph.edge(mem, adoptee.name, style='dashed')
-
-	graph.render('relations')
-		
-
+"""
 def usage():
 	print("python3 genealogy.py <filename>")
 
-
+"""
 
 
 

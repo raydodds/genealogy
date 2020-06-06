@@ -22,3 +22,6 @@ some of the older relations have been lost or are based on older,
 incomplete and hard to interpret files. The current record is maintained
 by hand as a google sheet and exported to .tsv when updates need to
 be made, so all information represented here may not be 100% accurate.
+
+Prints a list of unconnected members upon running. These members are not added
+to the final pdf
