@@ -71,7 +71,15 @@ def main():
 
 	graph = graphviz.Digraph("Relations", format='pdf')
 
-	graph.attr(label=r"\lEngineering House Lines\lDash=Adoption\lBlue=EBoard\lYellow=Cabinet")
+	graph.attr(label="""<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+	<TR><TD COLSPAN="3" BORDER="1"><B>Engineering House Lines</B></TD></TR>
+	<TR><TD ALIGN="left">Dashed Line</TD><TD>--&gt;</TD><TD ALIGN="right">Adoption</TD></TR>
+	<TR><TD ALIGN="left">Blue Outline</TD><TD>--&gt;</TD><TD ALIGN="right">EBoard</TD></TR>
+	<TR><TD ALIGN="left">Yellow Outline</TD><TD>--&gt;</TD><TD ALIGN="right">Cabinet</TD></TR>
+</TABLE>>""")
+	graph.attr(labeljust='l')
+	graph.attr(labelloc='t')
 
 	if not args.quiet:
 		print("Unconnected members:")
