@@ -55,7 +55,7 @@ class Member:
 		if( type(attribute) is not str or len(attribute) > 1 ):
 			raise TypeError("Attribute must be a single character")
 		else:
-			if attribute not in Member.validAttributes:
+			if not attribute or attribute not in Member.validAttributes:
 				raise ValueError(f'Only characters in {Member.validAttributes} are permitted')
 			elif attribute not in self.attributes:
 				self.attributes += attribute
@@ -95,7 +95,7 @@ class Member:
 
 	def isRA(self):
 		# R : RA
-		return self.hasOneOf(member.raAttributes)
+		return self.hasOneOf(Member.raAttributes)
 
 #
 #	LINK INTERACTION
@@ -141,10 +141,10 @@ class Member:
 		if(_initialCall):
 			member.addAdoptor(self, False)
 
-	def isConnected(self):
+	def isIsolated(self):
 		if sum(map(lambda x: len(x), [self.mentees, self.mentors, self.adoptees, self.adoptors])) == 0:
-			return False
-		return True
+			return True
+		return False
 
 
 #

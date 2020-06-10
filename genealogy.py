@@ -85,7 +85,7 @@ def main():
 		print("Unconnected members:")
 
 	for mem in roster:
-		if roster[mem].isConnected():
+		if not roster[mem].isIsolated():
 			if(roster[mem].isEBoard()):
 				graph.node(mem, mem, color='blue')
 			elif(roster[mem].isCabinet()):
