@@ -10,11 +10,15 @@ class Member:
 	__slots__ = "name", "nicknames", "mentors", "mentees", "adoptors", "adoptees", "attributes"
 
 	validAttributes = "oOPVSTAmnrhjbsfR"
+	eboardAttributes = "PVST"
+	cabinetAttributes = "Amnrhjbsf"
+	offFloorAttributes = "o"
+	raAttributes = "R"
 
 #
 #	SETUP AND BREAKDOWN
 #
-	def __init__(self, name, attributes="", nicknames=''):
+	def __init__(self, name, attributes='', nicknames=''):
 		""" Initialization of the new member.
 		"""
 		self.name = name
@@ -26,10 +30,10 @@ class Member:
 		if(type(attributes) == str):
 			for char in attributes:
 				if char not in Member.validAttributes:
-					raise ValueError("only characters in " + Member.validAttributes + " are permitted")
+					raise ValueError(f'Only characters in {Member.validAttributes} are permitted')
 			self.attributes = '' + attributes
 		else:
-			raise TypeError("attributes must be a string")
+			raise TypeError("Attributes must be a string")
 
 	def __str__(self):
 		""" Returns the name as the string representation
@@ -39,7 +43,7 @@ class Member:
 	def __repr__(self):
 		""" Returns a repr of the object without connections
 		#"""
-		return "("+self.name+", "+self.attributes+")"
+		return f'({self.name}, +{self.attributes})'
 
 #
 #	ATTRIBUTE INTERACTION
@@ -49,10 +53,13 @@ class Member:
 			@param: attribute[str] - the attribute to add
 		"""
 		if( type(attribute) is not str or len(attribute) > 1 ):
-			raise TypeError("attributes must be a single character")
+			raise TypeError("Attribute must be a single character")
 		else:
-			if( attribute not in self.attributes and attribute in Member.validAttributes ):
+			if attribute not in Member.validAttributes:
+				raise ValueError(f'Only characters in {Member.validAttributes} are permitted')
+			elif attribute not in self.attributes:
 				self.attributes += attribute
+
 
 	def hasOneOf(self, checkAttributes):
 		""" checks if the member has any of the given attributes
@@ -68,7 +75,7 @@ class Member:
 		# V : Vice President
 		# S : Secretary
 		# T : Treasurer
-		return self.hasOneOf('PVST')
+		return self.hasOneOf(Member.eboardAttributes)
 	
 	def isCabinet(self):
 		# A : ALC
@@ -80,15 +87,15 @@ class Member:
 		# b : Public Representative
 		# s : Social Head
 		# f : Freshman Rep
-		return self.hasOneOf('Amnrhjbsf')
+		return self.hasOneOf(Member.cabinetAttributes)
 
 	def isOffFloor(self):
 		# o : Off Floor
-		return self.hasOneOf('o')
+		return self.hasOneOf(Member.offFloorAttributes)
 
 	def isRA(self):
 		# R : RA
-		return self.hasOneOf('R')
+		return self.hasOneOf(member.raAttributes)
 
 #
 #	LINK INTERACTION
